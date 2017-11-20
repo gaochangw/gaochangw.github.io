@@ -3,17 +3,17 @@ projectUrl: jekyl-cv-crafter
 
 # leave blank fields which you don't want to fill/be displayed
 person:
-  name: Michelangelo
+  name: Chang Gao
   depiction: headshot.png
-  profession: Teenage Mutant Ninja Turtle
-  location: sewers of New York City
-  citizenship: USA
-  email: mikey@tmnt.com
-  site: http://mikeystmnt.com
-  phone: +8-tmnt-mickey
-  github: /streetturtle
-  stackoverflow: /streetturtle
-  linkedin: /streetturtle
+  profession: PhD Student in Neuroscience
+  location: Zurich
+  citizenship: China
+  email: gaochangw at outlook.com
+  #site: http://mikeystmnt.com
+  #phone: +8-tmnt-mickey
+  github: /gaochangw
+  #stackoverflow: /streetturtle
+  linkedin: https://www.linkedin.com/in/gaochangw
 
 career:
  - position: Foot Clan Antagonist
