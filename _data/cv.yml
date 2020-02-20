@@ -15,7 +15,7 @@ person:
   #stackoverflow: /streetturtle
   linkedin: https://www.linkedin.com/in/gaochangw
 
-education:
+career:
  - position: Foot Clan Antagonist
    company: TMNT inc.
    location: New York, USA
@@ -71,8 +71,14 @@ sideProjects:
     langs: AngularJS/HTML/CSS/Bootstrap
 
 education:
-  - name: Master Splinter Academy
-    degree: Mutant Red-Eared Slider
-    location: sewers of New York City
-    dates: 2007 – 2012
-    link: http://tmnt2012series.wikia.com/
+  - name: University of Zurich
+    degree: PhD in Neuroscience
+    location: Zurich, Switzerland
+    dates: 2017 - Present
+    link: https://www.ini.uzh.ch/people/chang/
+
+  - name: Imperial College London
+    degree: MSc in Analog and Digital Integrated Circuit Design
+    location: Zurich, Switzerland
+    dates: 2015 - 2016
+    link: https://https://www.imperial.ac.uk/
