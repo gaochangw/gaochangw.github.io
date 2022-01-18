@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Chang Gao - PostDoc at the Institute of Neuroinformatics, UZH & ETHZ"
+title: "Chang Gao - Postdoctoral Researcher"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-This is my home page. Here is my official profile at INI [academicpages template](https://services.ini.uzh.ch/admin/modules/uzh/person.php?id=62676).
+My name is Chang Gao (高唱) and I am currently a Postdoctoral Researcher in the [Sensors Group](http://sensors.ini.uzh.ch/home.html) at the [Institute of Neuroinformatics (INI)](https://www.ini.uzh.ch/en.html). I joined INI in 2017 as a PhD student and started my postdoc in Jan 2022. My advisors are Prof. Dr. Shih-Chii Liu and Prof. Dr. Tobi Delbruck. My PhD thesis was on designing energy-efficient accelerators of recurrent neural networks (RNN) for real-time inference. I am currently designing hardware architectures on FPGAs & ASICs and software optimization methods for deep neural networks (DNN). 
+
+My [INI Profile](https://services.ini.uzh.ch/admin/modules/uzh/person.php?id=62676).
+My [Curriculum Vitae (CV)](https://github.com/gaochangw/CV)
+
+During my PhD I worked on:
+- The DeltaRNN accelerator ([FPGA 2018](https://dl.acm.org/doi/abs/10.1145/3174243.3174261))
+- A spoken digit recognition system using DeltaRNN and the spiking cochlea ([ISCAS 2019](https://ieeexplore.ieee.org/abstract/document/8702290))
+- The EdgeDRNN accelerator ([AICAS 2020 & JETCAS](https://ieeexplore.ieee.org/abstract/document/9268992), Best Paper Award)
+- A real-time end-to-end robotic control system using EdgeDRNN ([ICRA 2020](https://ieeexplore.ieee.org/abstract/document/9196984))
+- An ultra low power real-time keyword spotting chip (ISSCC 2022)
+- The Spartus accelerator (Under review)
 
 <!-- A data-driven personal website
 ======

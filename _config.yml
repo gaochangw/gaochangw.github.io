@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Chang Gao"
-  avatar           : "/images/changgao_ini.jpg"
+  avatar           : "changgao_ini.jpg"
   bio              : "AI Hardware, Digital & Mixed-Signal Integrated Circuit Design"
   location         : "Zurich, Switzerland"
   employer         : "INI, UZH-ETHZ"
