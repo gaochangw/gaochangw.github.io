@@ -1,0 +1,63 @@
+@inproceedings{Gao2018_DeltaRNN,
+author = {Gao, Chang and Neil, Daniel and Ceolini, Enea and Liu, Shih-Chii and Delbruck, Tobi},
+title = {DeltaRNN: A Power-Efficient Recurrent Neural Network Accelerator},
+year = {2018},
+isbn = {9781450356145},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3174243.3174261},
+doi = {10.1145/3174243.3174261},
+abstract = {Recurrent Neural Networks (RNNs) are widely used in speech recognition and natural
+language processing applications because of their capability to process temporal sequences.
+Because RNNs are fully connected, they require a large number of weight memory accesses,
+leading to high power consumption. Recent theory has shown that an RNN delta network
+update approach can reduce memory access and computes with negligible accuracy loss.
+This paper describes the implementation of this theoretical approach in a hardware
+accelerator called "DeltaRNN" (DRNN). The DRNN updates the output of a neuron only
+when the neuron»s activation changes by more than a delta threshold. It was implemented
+on a Xilinx Zynq-7100 FPGA. FPGA measurement results from a single-layer RNN of 256
+Gated Recurrent Unit (GRU) neurons show that the DRNN achieves 1.2 TOp/s effective
+throughput and 164 GOp/s/W power efficiency. The delta update leads to a 5.7x speedup
+compared to a conventional RNN update because of the sparsity created by the DN algorithm
+and the zero-skipping ability of DRNN.},
+booktitle = {Proceedings of the 2018 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays},
+pages = {21–30},
+numpages = {10},
+keywords = {recurrent neural network, hardware accelerator, delta network, deep learning, gated recurrent unit, fpga},
+location = {Monterey, CALIFORNIA, USA},
+series = {FPGA '18}
+}
+
+@INPROCEEDINGS{Gao2019ISCAS,  author={Gao, Chang and Braun, Stefan and Kiselev, Ilya and Anumula, Jithendar and Delbruck, Tobi and Liu, Shih-Chii},  booktitle={2019 IEEE International Symposium on Circuits and Systems (ISCAS)},   title={Real-Time Speech Recognition for IoT Purpose using a Delta Recurrent Neural Network Accelerator},   year={2019},  volume={},  number={},  pages={1-5},  doi={10.1109/ISCAS.2019.8702290}}
+
+@INPROCEEDINGS{Gao2019Demo,  author={Gao, Chang and Braun, Stefan and Kiselev, Ilya and Anumula, Jithendar and Delbruck, Tobi and Liu, Shih-Chii},  booktitle={2019 IEEE International Symposium on Circuits and Systems (ISCAS)},   title={Live Demonstration: Real-Time Spoken Digit Recognition using the DeltaRNN Accelerator},   year={2019},  volume={},  number={},  pages={1-1},  doi={10.1109/ISCAS.2019.8702212}}
+
+@INPROCEEDINGS{Gao2020AICAS,  author={Gao, Chang and Rios-Navarro, Antonio and Chen, Xi and Delbruck, Tobi and Liu, Shih-Chii},  booktitle={2020 2nd IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS)},   title={EdgeDRNN: Enabling Low-latency Recurrent Neural Network Edge Inference},   year={2020},  volume={},  number={},  pages={41-45},  doi={10.1109/AICAS48895.2020.9074001}}
+
+@INPROCEEDINGS{Gao2020AMPRO,  author={Gao*, Chang and Gehlhar*, Rachel$^{\star}$ and Ames, Aaron D. and Liu, Shih-Chii and Delbruck, Tobi},  booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},   title={Recurrent Neural Network Control of a Hybrid Dynamical Transfemoral Prosthesis with EdgeDRNN Accelerator},   year={2020},  volume={},  number={},  pages={5460-5466},  doi={10.1109/ICRA40945.2020.9196984}}
+
+@article{Gao2021Spartus,
+  author    = {Chang Gao and
+               Tobi Delbr{\"{u}}ck and
+               Shih{-}Chii Liu},
+  title     = {Spartus: {A} 9.4 TOp/s FPGA-based {LSTM} Accelerator Exploiting Spatio-temporal
+               Sparsity},
+  journal   = {CoRR},
+  volume    = {abs/2108.02297},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2108.02297},
+  eprinttype = {arXiv},
+  eprint    = {2108.02297},
+  timestamp = {Wed, 11 Aug 2021 15:24:08 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2108-02297.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@INPROCEEDINGS{KimGao2022,  
+author={Kim*, Kwantae and Gao*, Chang and Gra\c{c}a, Rui and Kiselev, Ilya and Yoo, Hoi-Jun and Delbruck, Tobi and Liu, Shih-Chii},  booktitle={2022 IEEE International Solid-State Circuits Conference (ISSCC)},   
+title={A 23$\mu$W Solar-Powered Keyword Spotting ASIC with Ring-Oscillator-Based Time-Domain Feature Extraction},   
+year={2022},  
+volume={},  
+number={},  
+pages={}
+}
