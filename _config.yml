@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Chang Gao"
   avatar           : "/images/changgao_ini.jpg"
-  bio              : "PostDoc @ INI, UZH-ETHZ"
+  bio              : "AI Hardware, Digital & Mixed-Signal Integrated Circuit Design"
   location         : "Zurich, Switzerland"
-  employer         :
+  employer         : "INI, UZH-ETHZ"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=sQ9N7dsAAAAJ&hl"
   email            :
@@ -102,18 +102,18 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/gaochangw"
   orcid            : "https://orcid.org/0000-0002-3284-4078"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "https://www.youtube.com/channel/UCh001aqZUZfYcMXL57_dU-Q"
   wikipedia        :
 
 
