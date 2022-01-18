@@ -21,9 +21,10 @@ Major Works during PhD
 
 More About Me
 ======
-- My Email: gaochangw at outlook.com
-- My [INI Profile](https://services.ini.uzh.ch/admin/modules/uzh/person.php?id=62676).
-- My [Curriculum Vitae (CV)](https://github.com/gaochangw/CV)
+- Email: gaochangw at outlook.com
+- [Curriculum Vitae (CV)](https://github.com/gaochangw/CV)
+- [INI Profile](https://services.ini.uzh.ch/admin/modules/uzh/person.php?id=62676)
+- [Demo Videos (YouTube)](https://www.youtube.com/user/https://www.youtube.com/channel/UCh001aqZUZfYcMXL57_dU-Q)
 
 <!-- A data-driven personal website
 ======
