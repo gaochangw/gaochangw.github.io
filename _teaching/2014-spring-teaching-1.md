@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "Basics of Instrumentation, Measurement and Analysis"
 collection: teaching
-type: "Undergraduate course"
+type: "Master Course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Institute of Neuroinformatics, University of Zurich & ETH Zurich"
+date: 2017-09-20
+location: "Zurich, Switzerland"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+As a teaching assistant for 4 years from 2017 to 2020.
