@@ -13,7 +13,8 @@ My name is Chang Gao (高唱) and I am currently a Postdoctoral Researcher in th
 My [INI Profile](https://services.ini.uzh.ch/admin/modules/uzh/person.php?id=62676).
 My [Curriculum Vitae (CV)](https://github.com/gaochangw/CV)
 
-During my PhD I worked on:
+Major Works during PhD
+======
 - The DeltaRNN accelerator ([FPGA 2018](https://dl.acm.org/doi/abs/10.1145/3174243.3174261))
 - A spoken digit recognition system using DeltaRNN and the spiking cochlea ([ISCAS 2019](https://ieeexplore.ieee.org/abstract/document/8702290))
 - The EdgeDRNN accelerator ([AICAS 2020 & JETCAS](https://ieeexplore.ieee.org/abstract/document/9268992), Best Paper Award)
