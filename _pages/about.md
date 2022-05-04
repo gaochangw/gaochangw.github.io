@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Chang Gao (高唱). I am an incoming Assistant Professor in the Department of Microeletronics at TU Delft from August, 2022. Currently I am a Postdoctoral Researcher in the [Sensors Group](http://sensors.ini.uzh.ch/home.html) at the [Institute of Neuroinformatics (INI), University of Zurich and ETH Zurich](https://www.ini.uzh.ch/en.html). I joined INI in 2017 as a PhD student and started my postdoc in Jan 2022. My advisors are Prof. Dr. Shih-Chii Liu and Prof. Dr. Tobi Delbruck. My PhD thesis was on designing energy-efficient accelerators of recurrent neural networks (RNN) for real-time inference. I am currently designing hardware architectures on FPGAs & ASICs and software optimization methods for deep neural networks (DNN). 
+My name is Chang Gao (高唱). I am an incoming Assistant Professor at the [Department of Microeletronics, TU Delft](http://microelectronics.tudelft.nl/) from August, 2022. Currently I am a Postdoctoral Researcher in the [Sensors Group](http://sensors.ini.uzh.ch/home.html) at the [Institute of Neuroinformatics (INI), University of Zurich and ETH Zurich](https://www.ini.uzh.ch/en.html). I joined INI in 2017 as a PhD student and started my postdoc in Jan 2022. My advisors are Prof. Dr. Shih-Chii Liu and Prof. Dr. Tobi Delbruck. My PhD thesis was on designing energy-efficient accelerators of recurrent neural networks (RNN) for real-time inference. I am currently designing hardware architectures on FPGAs & ASICs and software optimization methods for deep neural networks (DNN). 
 
 Major Works during PhD
 ======
