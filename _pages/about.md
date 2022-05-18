@@ -12,12 +12,13 @@ My name is Chang Gao (高唱). I am an incoming Assistant Professor at the [Depa
 
 Major Works during PhD
 ======
-- The DeltaRNN accelerator exploting temporal sparsity in Gated-Recurrent Unit (GRU) ([FPGA 2018](https://dl.acm.org/doi/abs/10.1145/3174243.3174261))
-- A spoken digit recognition system using DeltaRNN and the spiking cochlea ([ISCAS 2019](https://ieeexplore.ieee.org/abstract/document/8702290))
-- The EdgeDRNN accelerator ([AICAS 2020 & JETCAS](https://ieeexplore.ieee.org/abstract/document/9268992), Best Paper Award)
-- A real-time end-to-end robotic control system using EdgeDRNN ([ICRA 2020](https://ieeexplore.ieee.org/abstract/document/9196984))
-- An ultra low power real-time keyword spotting chip ([ISSCC 2022](https://ieeexplore.ieee.org/abstract/document/9731708))
-- The Spartus accelerator exploiting spatio-temporal sparsity in Long Short-Term Memory (LSTM) ([Preprint](https://arxiv.org/abs/2108.02297))
+- [[ISSCC 2022 ](https://ieeexplore.ieee.org/abstract/document/9731708)] An ultra low power real-time keyword spotting chip 
+- [[Preprint   ](https://arxiv.org/abs/2108.02297)] The Spartus accelerator exploiting spatio-temporal sparsity in Long Short-Term Memory (LSTM) 
+- [[FPGA 2018  ](https://dl.acm.org/doi/abs/10.1145/3174243.3174261)] The DeltaRNN accelerator exploting temporal sparsity in Gated-Recurrent Unit (GRU) 
+- [[ICRA 2020  ](https://ieeexplore.ieee.org/abstract/document/9196984)] A real-time end-to-end robotic control system using EdgeDRNN
+- [[AICAS 2020 ](https://ieeexplore.ieee.org/document/9074001)] The EdgeDRNN accelerator (Best Paper Award)
+- [[JETCAS 2020](https://ieeexplore.ieee.org/abstract/document/9268992)] The invited journal version of EdgeDRNN
+- ([ISCAS 2019 ](https://ieeexplore.ieee.org/abstract/document/8702290)) A spoken digit recognition system using DeltaRNN and the spiking cochlea
 
 Awards
 ======
