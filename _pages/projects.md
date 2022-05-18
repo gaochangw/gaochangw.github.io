@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Open Projects"
+title: "MSc Projects"
 permalink: /projects/
 author_profile: true
 redirect_from:
@@ -8,4 +8,4 @@ redirect_from:
 ---
 
 {% include base_path %}
-My [Open Master Projects](https://docs.google.com/document/d/1wpks3zsNiH88gTDF11-RYwFRdugKCpRU4kBh8qezzKc/edit)
+My [Open MSc Projects](https://docs.google.com/document/d/1wpks3zsNiH88gTDF11-RYwFRdugKCpRU4kBh8qezzKc/edit)
