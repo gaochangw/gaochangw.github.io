@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Chang Gao - Postdoctoral Researcher"
+title: "Chang Gao - Incoming Assistant Professor @ TU Delft"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -16,12 +16,19 @@ Major Works during PhD
 - A spoken digit recognition system using DeltaRNN and the spiking cochlea ([ISCAS 2019](https://ieeexplore.ieee.org/abstract/document/8702290))
 - The EdgeDRNN accelerator ([AICAS 2020 & JETCAS](https://ieeexplore.ieee.org/abstract/document/9268992), Best Paper Award)
 - A real-time end-to-end robotic control system using EdgeDRNN ([ICRA 2020](https://ieeexplore.ieee.org/abstract/document/9196984))
-- An ultra low power real-time keyword spotting chip (ISSCC 2022)
+- An ultra low power real-time keyword spotting chip ([ISSCC 2022](https://ieeexplore.ieee.org/abstract/document/9731708))
 - The Spartus accelerator ([Preprint](https://arxiv.org/abs/2108.02297))
+
+Awards
+======
+- Distinction of PhD Thesis by the Faculty of Science, University of Zurich ([Link](https://www.mnf.uzh.ch/dam/jcr:960266b1-0a30-4d8d-9b05-cd08a181d6d7/DO_TeilA_E_2015-11-30.pdf))
+- 2020 Chinese Government Award for Outstanding Self-finance Students Abroad (国家优秀自费留学生奖学金) ([Link](http://www.tochinajob.com:8080/publish/portal64/tab4128/info145167.htm))
+- Misha Mahowald Prize for Neuromorphic Engineering (As a team member) ([Link](https://www.mahowaldprize.org/prize-awards/prize-2020#h.lzd88rk7n7fr))
+- Best Paper Award of the IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS) ([Link](https://ee.ethz.ch/news-and-events/d-itet-news-channel/2020/09/best-paper-award-for-institute-of-neuroinformatics.html))
+- MSc Outstanding Achievement Award @ Imperial Colleage London ([Link](https://www.imperial.ac.uk/electrical-engineering/study/current-students-course-handbook/postgraduate-prizes/msc-prizes/))
 
 More About Me
 ======
-- [Curriculum Vitae (CV)](https://github.com/gaochangw/CV)
 - [INI Profile](https://services.ini.uzh.ch/admin/modules/uzh/person.php?id=62676)
 - [Demo Videos (YouTube)](https://www.youtube.com/channel/UCh001aqZUZfYcMXL57_dU-Q)
 
