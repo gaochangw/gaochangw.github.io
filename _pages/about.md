@@ -13,7 +13,7 @@ My name is Chang Gao (高唱). I am an incoming Assistant Professor at the [Depa
 Major Works during PhD
 ======
 - [[ISSCC  2022](https://ieeexplore.ieee.org/abstract/document/9731708)] An ultra low power real-time keyword spotting chip 
-- [[arXiv  2022](https://arxiv.org/abs/2108.02297)] The Spartus accelerator exploiting spatio-temporal sparsity in Long Short-Term Memory (LSTM) 
+- [[TNNLS  2022](https://arxiv.org/abs/2108.02297)] The Spartus accelerator exploiting spatio-temporal sparsity in Long Short-Term Memory (LSTM) 
 - [[FPGA   2018](https://dl.acm.org/doi/abs/10.1145/3174243.3174261)] The DeltaRNN accelerator exploting temporal sparsity in Gated-Recurrent Unit (GRU) 
 - [[ICRA   2020](https://ieeexplore.ieee.org/abstract/document/9196984)] A real-time end-to-end robotic control system using EdgeDRNN
 - [[AICAS  2020](https://ieeexplore.ieee.org/document/9074001)] The EdgeDRNN accelerator (Best Paper Award)
