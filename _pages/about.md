@@ -22,11 +22,11 @@ Major Works during PhD
 
 Awards
 ======
-- Distinction of PhD Thesis by the Faculty of Science, University of Zurich ([Link](https://www.mnf.uzh.ch/dam/jcr:960266b1-0a30-4d8d-9b05-cd08a181d6d7/DO_TeilA_E_2015-11-30.pdf))
-- 2020 Chinese Government Award for Outstanding Self-finance Students Abroad (国家优秀自费留学生奖学金) ([Link](http://www.tochinajob.com:8080/publish/portal64/tab4128/info145167.htm))
-- Misha Mahowald Prize for Neuromorphic Engineering (As a team member) ([Link](https://www.mahowaldprize.org/prize-awards/prize-2020#h.lzd88rk7n7fr))
-- Best Paper Award of the IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS) ([Link](https://ee.ethz.ch/news-and-events/d-itet-news-channel/2020/09/best-paper-award-for-institute-of-neuroinformatics.html))
-- MSc Outstanding Achievement Award @ Imperial Colleage London ([Link](https://www.imperial.ac.uk/electrical-engineering/study/current-students-course-handbook/postgraduate-prizes/msc-prizes/))
+- [2022] Distinction of PhD Thesis by the Faculty of Science, University of Zurich ([Link](https://www.mnf.uzh.ch/dam/jcr:960266b1-0a30-4d8d-9b05-cd08a181d6d7/DO_TeilA_E_2015-11-30.pdf))
+- [2021] 2020 Chinese Government Award for Outstanding Self-finance Students Abroad (国家优秀自费留学生奖学金) ([Link](http://www.tochinajob.com:8080/publish/portal64/tab4128/info145167.htm))
+- [2021] Misha Mahowald Prize for Neuromorphic Engineering (As a team member) ([Link](https://www.mahowaldprize.org/prize-awards/prize-2020#h.lzd88rk7n7fr))
+- [2020] Best Paper Award of the IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS) ([Link](https://ee.ethz.ch/news-and-events/d-itet-news-channel/2020/09/best-paper-award-for-institute-of-neuroinformatics.html))
+- [2016] MSc Outstanding Achievement Award @ Imperial Colleage London ([Link](https://www.imperial.ac.uk/electrical-engineering/study/current-students-course-handbook/postgraduate-prizes/msc-prizes/))
 
 More About Me
 ======
