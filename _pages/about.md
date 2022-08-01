@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Chang Gao - Incoming Assistant Professor @ TU Delft"
+title: "Chang Gao - Assistant Professor @ TU Delft"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
