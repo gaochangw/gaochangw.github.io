@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-My name is Chang Gao (高唱). I am an Assistant Professor at the [Department of Microeletronics, TU Delft](http://elca.tudelft.nl/People/bio.php?id=840). Currently I am a Postdoctoral Researcher in the [Sensors Group](http://sensors.ini.uzh.ch/home.html) at the [Institute of Neuroinformatics (INI), University of Zurich and ETH Zurich](https://www.ini.uzh.ch/en.html). I am designing energy-efficient AI hardware (FPGAs & ASICs) and software optimization methods for the training and inference of deep neural networks (DNNs). 
+My name is Chang Gao (高唱). I am an Assistant Professor at the [Department of Microeletronics, TU Delft](http://elca.tudelft.nl/People/bio.php?id=840). Currently I am a Postdoctoral Researcher in the [Sensors Group](http://sensors.ini.uzh.ch/home.html) at the [Institute of Neuroinformatics (INI), University of Zurich and ETH Zurich](https://www.ini.uzh.ch/en.html). I am designing energy-efficient AI hardware (FPGAs & ASICs) and software optimization methods for the training and inference of deep neural networks (DNNs). I am leading the [Lab of Efficient circuits & systems for Machine Intelligence (EMI), TU Delft](https://www.tudemi.com/)
 
 Selected Publications
 ======
-- [[TNNLS  2022](https://arxiv.org/abs/2108.02297)] The Spartus accelerator exploiting spatio-temporal sparsity in Long Short-Term Memory (LSTM)
+- [[TNNLS  2022](https://ieeexplore.ieee.org/document/9794448)] The Spartus accelerator exploiting spatio-temporal sparsity in Long Short-Term Memory (LSTM)
 - [[ISSCC  2022](https://ieeexplore.ieee.org/abstract/document/9731708)] An ultra low power real-time keyword spotting chip  
 - [[FPGA   2018](https://dl.acm.org/doi/abs/10.1145/3174243.3174261)] The DeltaRNN accelerator exploting temporal sparsity in Gated-Recurrent Unit (GRU) 
 - [[ICRA   2020](https://ieeexplore.ieee.org/abstract/document/9196984)] A real-time end-to-end robotic control system using EdgeDRNN
