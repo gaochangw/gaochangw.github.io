@@ -1,0 +1,52 @@
+---
+import { siteConfig } from "../config";
+const publications = siteConfig.publications ?? [];
+const hasPublications = publications.length > 0;
+const publicationsTitle = siteConfig.publicationsTitle || "Publications";
+---
+
+{
+  hasPublications && (
+    <section id="publications" class="p-8 sm:p-12 md:p-16 lg:p-24 bg-gray-50/60">
+      <div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div class="lg:col-span-4">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+              {publicationsTitle}
+            </h2>
+            <div
+              class="w-[75px] h-[5px] mt-2 rounded-full"
+              style={`background-color: ${siteConfig.accentColor}`}
+            />
+          </div>
+
+          <div class="lg:col-span-8">
+            <ol class="space-y-6 list-decimal pl-4 sm:pl-6 text-gray-700 marker:text-gray-400">
+              {publications.map((pub) => (
+                <li class="rounded-lg border border-gray-200 bg-white/90 p-4 sm:p-5">
+                  <h3 class="text-lg font-semibold text-gray-900">
+                    {pub.title}
+                  </h3>
+                  {
+                    pub.authors && (
+                      <p class="mt-2 text-sm uppercase tracking-wide text-gray-500">
+                        {pub.authors}
+                      </p>
+                    )
+                  }
+                  {
+                    pub.venue && (
+                      <p class="mt-2 text-sm sm:text-base text-gray-600">
+                        {pub.venue}
+                      </p>
+                    )
+                  }
+                </li>
+              ))}
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

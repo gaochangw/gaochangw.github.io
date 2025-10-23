@@ -1,5 +1,10 @@
 ---
 import { siteConfig } from "../config";
+const hasSkills = siteConfig.skills && siteConfig.skills.length > 0;
+const hasGeneralInfo =
+  siteConfig.generalInfo && siteConfig.generalInfo.length > 0;
+const hasMetrics = siteConfig.metrics && siteConfig.metrics.length > 0;
+const contactEntries = siteConfig.contact ?? [];
 ---
 
 <section id="about" class="p-8 sm:p-12 md:p-16 lg:p-24">
@@ -18,22 +23,111 @@ import { siteConfig } from "../config";
         </div>
       </div>
 
-      <div class="lg:col-span-8 space-y-8">
-        <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600">
+      <div class="lg:col-span-8 space-y-10">
+        <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-700">
           {siteConfig.aboutMe}
         </p>
 
-        <div class="pt-4">
-          <div class="flex flex-wrap gap-3">
-            {
-              siteConfig.skills.map((skill) => (
-                <span class="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-100 text-gray-800 rounded-full text-sm sm:text-base md:text-lg font-medium hover:bg-gray-200 transition-colors duration-200">
-                  {skill}
-                </span>
-              ))
-            }
-          </div>
-        </div>
+        {
+          hasMetrics && (
+            <div class="space-y-4">
+              <h3 class="text-base font-semibold uppercase tracking-wide text-gray-500">
+                At a Glance
+              </h3>
+              <ul class="space-y-3">
+                {siteConfig.metrics.map((metric) => (
+                  <li class="flex items-start gap-3 text-base text-gray-600">
+                    <span
+                      class="mt-1 inline-block h-2 w-2 flex-shrink-0 rounded-full"
+                      style={{ backgroundColor: siteConfig.accentColor }}
+                    />
+                    <span>{metric}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+
+        {
+          hasGeneralInfo && (
+            <div class="space-y-4">
+              <h3 class="text-base font-semibold uppercase tracking-wide text-gray-500">
+                General Information
+              </h3>
+              <dl class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {siteConfig.generalInfo.map((item) => (
+                  <div class="rounded-lg border border-gray-200 bg-white/80 p-4">
+                    <dt class="text-sm font-medium text-gray-500">
+                      {item.label}
+                    </dt>
+                    <dd class="mt-1 text-base text-gray-700">
+                      {item.value}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )
+        }
+
+        {
+          contactEntries.length > 0 && (
+            <div class="space-y-4">
+              <h3 class="text-base font-semibold uppercase tracking-wide text-gray-500">
+                Contact
+              </h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {contactEntries.map((item) => {
+                  const Tag = item.url ? "a" : "div";
+                  const linkProps = item.url
+                    ? {
+                        href: item.url,
+                        target: item.url.startsWith("http")
+                          ? "_blank"
+                          : undefined,
+                        rel: item.url.startsWith("http")
+                          ? "noopener noreferrer"
+                          : undefined,
+                      }
+                    : {};
+                  return (
+                    <Tag
+                      {...linkProps}
+                      class="group rounded-lg border border-gray-200 bg-gray-50 px-4 py-3 transition-all duration-300 hover:-translate-y-0.5 hover:border-gray-300 hover:bg-white"
+                    >
+                      <p class="text-xs font-medium uppercase tracking-wide text-gray-500">
+                        {item.label}
+                      </p>
+                      <p class="mt-1 text-base font-medium text-gray-700 group-hover:text-gray-900">
+                        {item.value}
+                      </p>
+                    </Tag>
+                  );
+                })}
+              </div>
+            </div>
+          )
+        }
+
+        {
+          hasSkills && (
+            <div class="space-y-4">
+              <h3 class="text-base font-semibold uppercase tracking-wide text-gray-500">
+                Research Interests
+              </h3>
+              <div class="flex flex-wrap gap-3">
+                {
+                  siteConfig.skills.map((skill) => (
+                    <span class="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-100 text-gray-800 rounded-full text-sm sm:text-base md:text-lg font-medium hover:bg-gray-200 transition-colors duration-200">
+                      {skill}
+                    </span>
+                  ))
+                }
+              </div>
+            </div>
+          )
+        }
       </div>
     </div>
   </div>

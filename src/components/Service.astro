@@ -1,0 +1,52 @@
+---
+import { siteConfig } from "../config";
+const serviceEntries = siteConfig.service ?? [];
+const hasService = serviceEntries.length > 0;
+const serviceTitle = siteConfig.serviceTitle || "Service";
+---
+
+{
+  hasService && (
+    <section id="service" class="p-8 sm:p-12 md:p-16 lg:p-24">
+      <div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div class="lg:col-span-4">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+              {serviceTitle}
+            </h2>
+            <div
+              class="w-[75px] h-[5px] mt-2 rounded-full"
+              style={`background-color: ${siteConfig.accentColor}`}
+            />
+          </div>
+
+          <div class="lg:col-span-8">
+            <div class="space-y-6">
+              {serviceEntries.map((entry) => (
+                <div class="rounded-xl border border-gray-200 bg-gray-50 p-5 sm:p-6 hover:bg-white hover:shadow-md transition">
+                  <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+                    <div>
+                      <h3 class="text-lg font-semibold text-gray-900">
+                        {entry.role}
+                      </h3>
+                      <p class="text-sm text-gray-600">
+                        {entry.organization}
+                      </p>
+                    </div>
+                    {
+                      entry.dateRange && (
+                        <span class="text-sm font-medium text-gray-500">
+                          {entry.dateRange}
+                        </span>
+                      )
+                    }
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

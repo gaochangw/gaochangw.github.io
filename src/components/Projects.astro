@@ -1,6 +1,7 @@
 ---
 import { siteConfig } from "../config";
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
+const projectsTitle = siteConfig.projectsTitle || "Projects";
 ---
 
 {
@@ -10,7 +11,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
           <div class="lg:col-span-4">
             <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
-              Projects
+              {projectsTitle}
             </h2>
             <div
               class="w-[75px] h-[5px] mt-2 rounded-full"
@@ -34,11 +35,12 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                   <div class="group relative">
                     <Component
                       {...linkProps}
-                      class={`block relative p-4 sm:p-6 md:p-8 bg-gray-50 rounded-xl sm:rounded-2xl border border-gray-200 transition-all duration-300 ${
+                      class={`block relative p-4 sm:p-6 md:p-8 bg-gray-50 rounded-xl sm:rounded-2xl border border-gray-200 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                         project.link
-                          ? "hover:bg-white hover:shadow-xl hover:border-gray-300 hover:-translate-y-1"
-                          : ""
+                          ? "hover:bg-white hover:shadow-xl hover:border-gray-300 hover:-translate-y-1 focus-visible:ring-[var(--accent-color)]"
+                          : "focus-visible:ring-gray-300"
                       }`}
+                      style={{ "--accent-color": siteConfig.accentColor }}
                     >
                       {project.link && (
                         <div class="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center bg-gray-900 rounded-full text-white transition-all duration-300 group-hover:bg-gray-700">
@@ -66,9 +68,18 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                           >
                             0{index + 1}
                           </span>
-                          <h3 class="text-xl sm:text-2xl font-bold text-gray-900 mt-1">
-                            {project.name}
-                          </h3>
+                          <div class="mt-1 flex flex-col gap-1 sm:gap-1.5">
+                            <h3 class="text-xl sm:text-2xl font-bold text-gray-900">
+                              {project.name}
+                            </h3>
+                            {
+                              project.date && (
+                                <p class="text-sm font-medium text-gray-500">
+                                  {project.date}
+                                </p>
+                              )
+                            }
+                          </div>
                         </div>
 
                         <p

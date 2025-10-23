@@ -1,6 +1,7 @@
 ---
 import { siteConfig } from "../config";
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
+const experienceTitle = siteConfig.experienceTitle || "Experience";
 ---
 
 {
@@ -10,7 +11,7 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
           <div class="lg:col-span-4">
             <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
-              Experience
+              {experienceTitle}
             </h2>
             <div
               class="w-[75px] h-[5px] mt-2 rounded-full"

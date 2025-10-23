@@ -4,6 +4,10 @@ import { siteConfig } from "../config";
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+const hasHonors = siteConfig.honors && siteConfig.honors.length > 0;
+const hasPublications =
+  siteConfig.publications && siteConfig.publications.length > 0;
+const hasService = siteConfig.service && siteConfig.service.length > 0;
 ---
 
 <header
@@ -33,6 +37,30 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         )
       }
       {
+        hasHonors && (
+          <li>
+            <a
+              href="#honors"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Honors
+            </a>
+          </li>
+        )
+      }
+      {
+        hasPublications && (
+          <li>
+            <a
+              href="#publications"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Publications
+            </a>
+          </li>
+        )
+      }
+      {
         hasExperience && (
           <li>
             <a
@@ -52,6 +80,18 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Education
+            </a>
+          </li>
+        )
+      }
+      {
+        hasService && (
+          <li>
+            <a
+              href="#service"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Service
             </a>
           </li>
         )
