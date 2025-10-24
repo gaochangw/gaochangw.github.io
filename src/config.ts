@@ -6,11 +6,11 @@ export const siteConfig = {
   accentColor: "#00A6D6",
   location: "Delft, Netherlands",
   contact: [
-    {
-      label: "Personal Email",
-      value: "gaochangw@gmail.com",
-      url: "mailto:gaochangw@gmail.com",
-    },
+    // {
+    //   label: "Personal Email",
+    //   value: "gaochangw@gmail.com",
+    //   url: "mailto:gaochangw@gmail.com",
+    // },
     {
       label: "Work Email",
       value: "chang.gao@tudelft.nl",
@@ -18,12 +18,17 @@ export const siteConfig = {
     },
     {
       label: "Office",
-      value: "Mekelweg 4, 2628 CD Delft, Netherlands",
+      value: "HB 19.280, Mekelweg 4, 2628 CD Delft, Netherlands",
     },
     {
       label: "Research Group",
       value: "tudemi.com",
       url: "https://www.tudemi.com",
+    },
+    {
+      label: "Bibliometric",
+      value: "Google Scholar",
+      url: "https://scholar.google.ch/citations?user=sQ9N7dsAAAAJ&hl=en",
     },
     {
       label: "ORCID",
@@ -38,19 +43,19 @@ export const siteConfig = {
     { label: "Date of Birth", value: "22 April 1992" },
     { label: "Location", value: "Delft, Netherlands" },
   ],
-  metrics: [
-    "Google Scholar: h-index 15 · i10-index 19 (Aug 2025)",
-    "Co-leads the TU Delft MSc Digital Systems Profile",
-    "Supervision: 3 PhD, 5 MSc, 10 MSc alumni",
-  ],
-  skills: [
-    "Neuromorphic HW-SW Co-Design",
-    "Edge AI & AIoT",
-    "Energy-Efficient IC Design",
-    "Digital & Mixed-Signal ASIC",
-    "FPGA Prototyping",
-    "Wireless Systems",
-  ],
+  // metrics: [
+  //   "Google Scholar: h-index 15 · i10-index 19 (Aug 2025)",
+  //   "Co-leads the TU Delft MSc Digital Systems Profile",
+  //   "Supervision: 3 PhD, 5 MSc, 10 MSc alumni",
+  // ],
+  // skills: [
+  //   "Neuromorphic HW-SW Co-Design",
+  //   "Edge AI & AIoT",
+  //   "Energy-Efficient IC Design",
+  //   "Digital & Mixed-Signal ASIC",
+  //   "FPGA Prototyping",
+  //   "Wireless Systems",
+  // ],
   projectsTitle: "Research Grants & Strategic Projects",
   projects: [
     {
