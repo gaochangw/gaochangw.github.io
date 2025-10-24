@@ -243,15 +243,15 @@ export const siteConfig = {
       dateRange: "2024 – 2025",
     },
     {
-      role: "Technical Program Committee",
+      role: "Review Committee Member",
       organization:
-        "IEEE ISCAS 2024 & 2025 (Neuromorphic Systems, Transformers & Applications tracks)",
+        "IEEE ISCAS 2024 & 2025 ",
       dateRange: "2024 – 2025",
     },
     {
       role: "Reviewer",
       organization:
-        "33+ journal reviews across IEEE TVLSI, TCAS-I, TBioCAS, JETCAS, TPAMI, Nature Computational Science, and more",
+        "40+ journal reviews across IEEE JSSC, TPAMI, TNNLS, TMTT, TCAS-I, TBioCAS, JETCAS, MWTL, TVLSI, Nature Computational Science, and more",
       dateRange: "2017 – Present",
     },
   ],
