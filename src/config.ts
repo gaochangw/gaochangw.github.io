@@ -122,10 +122,10 @@ export const siteConfig = {
   education: [
     {
       school: "Institute of Neuroinformatics, University of Zürich & ETH Zürich",
-      degree: "Ph.D. in Neuroinformatics",
+      degree: "Ph.D. in Neuroscience (Distinction)",
       dateRange: "Jan 2017 – Dec 2021",
       achievements: [
-        "Dissertation: Energy-Efficient Recurrent Neural Network Accelerator for Real-Time Inference (Distinction).",
+        "Dissertation: Energy-Efficient Recurrent Neural Network Accelerator for Real-Time Inference.",
         "Funded by Samsung Advanced Institute of Technology and the Swiss National Science Foundation.",
         "200+ hours of teaching assistance across instrumentation, measurement, and digital electronics.",
       ],
