@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Chang Gao",
-  title: "Assistant Professor of Neuromorphic Engineering",
+  title: "Assistant Professor of Edge AI",
   description:
     "Personal website and curriculum vitae of Chang Gao, Assistant Professor in the Department of Microelectronics at Delft University of Technology.",
   accentColor: "#00A6D6",
@@ -37,11 +37,11 @@ export const siteConfig = {
     },
   ],
   aboutMe:
-    "Chang Gao is an Assistant Professor in the Department of Microelectronics at Delft University of Technology. His research bridges neuromorphic hardware-software co-design, edge intelligence, and energy-efficient system architectures for applications spanning wireless communication, extended reality, and healthcare.",
+    "Chang Gao is an Assistant Professor in the Department of Microelectronics at Delft University of Technology (TU Delft), a position he has held since 2022. His research focuses on hardware-software co-design for real-time edge intelligence, with a particular interest in embodied intelligence.",
   generalInfo: [
     { label: "Nationality", value: "Chinese" },
-    { label: "Date of Birth", value: "22 April 1992" },
     { label: "Location", value: "Delft, Netherlands" },
+    { label: "Hobbies", value: "Tennis, Hiking, Travel" },
   ],
   // metrics: [
   //   "Google Scholar: h-index 15 · i10-index 19 (Aug 2025)",
